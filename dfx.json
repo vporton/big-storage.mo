@@ -1,14 +1,10 @@
 {
   "canisters": {
-    "big_storage_backend": {
-      "main": "src/big_storage_backend/main.mo",
-      "type": "motoko"
-    }
   },
   "defaults": {
     "build": {
       "args": "",
-      "packtool": ""
+      "packtool": "mops sources"
     }
   },
   "output_env_file": ".env",
